@@ -1,0 +1,140 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Dancing Script', sans-serif;
+}
+hr{
+  border: none;
+     border-top: 5px dotted pink;
+     color: pink;
+     overflow: visible;
+     text-align: center;
+     margin: 50px auto;
+     width: 5%;
+}
+
+h1{
+  color: #11999E;
+  font-size: 3.5rem;
+  font-family: 'Acme', sans-serif;
+  line-height: 1;
+  margin: 0;
+  position:relative;
+
+}
+h2{
+
+  color:#11999E;
+  font-size: 50px;
+  font-weight: bold;
+margin-bottom: 0;
+}
+h3{
+  color: #66BFBF;
+
+}
+p{
+  font-size: 30px;
+}
+.top-container{
+  background-color: #CDF0EA;
+  position:relative;
+  padding-top: 100px;
+}
+
+.topcloud{
+position:absolute;
+top:50px;
+right:350px;
+}
+.bottomcloud{
+  position: absolute;
+  left:300px;
+}
+
+.profile{
+  width:70%;
+  margin: 0 auto;
+}
+
+.personal-image:hover{
+background-color: pink;
+}
+
+.profile-info{
+  line-height: 1;
+  text-align: center;
+}
+
+.skills{
+
+}
+.skill-row{
+  line-height: 1;
+margin: 0 auto 0 auto;
+width:60%;
+}
+.skill-image{
+  width: 20%;
+  float: left;
+
+}
+.skill-image2{
+  float: right;
+  margin-left: 30px;
+}
+.myskills-info{
+  font-size: 30px;
+  text-align: left;
+}
+.challenge-info{
+  font-size: 30px;
+  text-align: right;
+}
+.contact-me{
+margin-bottom: 10px;
+}
+.d_d{
+  text-align: right;
+}
+.cha_head{
+  text-align: left;
+}
+
+.footer-link{
+color:#11999E;
+font-size: 20px;
+text-decoration:none;
+}
+.bottom-container{
+  padding: 20px 0 0 0;
+  background-color: pink;
+}
+.footer-link{
+  margin: 20px 20px;
+}
+.footer-info{
+  margin:0;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 22px;
+  background: #2ba9e3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  }
